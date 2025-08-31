@@ -1,0 +1,14 @@
+train: C:/Users/Lathika/OneDrive/Desktop/E_Waste_Project/archive/underwater_plastics/train/images
+val: C:/Users/Lathika/OneDrive/Desktop/E_Waste_Project/archive/underwater_plastics/valid/images
+test: C:/Users/Lathika/OneDrive/Desktop/E_Waste_Project/archive/underwater_plastics/test/images
+
+nc: 15
+names: ['Mask', 'can', 'cellphone', 'electronics', 'gbottle', 'glove', 'metal', 'misc', 'net', 'pbag', 'pbottle', 'plastic', 'rod', 'sunglasses', 'tire']
+
+
+roboflow:
+  workspace: object-detect-dmjpt
+  project: ocean_waste
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detect-dmjpt/ocean_waste/dataset/1
